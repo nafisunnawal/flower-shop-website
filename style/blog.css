@@ -114,6 +114,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-top: 21px;
+    
 }
 .service{
     background-color: rgba(39, 39, 39, 0.05);
@@ -121,7 +122,58 @@ nav{
     margin-left: 240px;
     margin-right: 240px;
     padding: 40px;
-    height: 120px;
-    width: 1550px;
+    margin-left: 840px;
+    margin-right: 840px;
     margin-bottom: 128px;
+}
+.offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    border-radius: 8px;
+    margin: 32px 300px;
+    margin-left: 640px;
+    margin-right: 640px;
+    padding: 40px;
+}
+#offer-img{
+    height: 430px;
+    width: 200px;
+}
+#offer-details{
+    align-items: center;
+    height: 100vh;
+    
+}
+#free{
+    color: red;
+}
+#off{
+    color: red;
+}
+.discount-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 429px;
+    padding-right: 429px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 128px;
+}
+.product-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
 }
