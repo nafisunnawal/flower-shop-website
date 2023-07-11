@@ -141,11 +141,7 @@ nav{
     height: 430px;
     width: 200px;
 }
-#offer-details{
-    align-items: center;
-    height: 100vh;
-    
-}
+
 #free{
     color: red;
 }
@@ -175,5 +171,47 @@ nav{
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-
+   
+}
+.subscribe{
+    background-image: url("../flower image/Rectangle\ 9.png");
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 145px;
+    border-radius: 8px;
+    height: 449px;
+}
+.subscribe-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.subscribe-mail{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.all-footer{
+    background: #111010; 
+    height: 449px;
+    border-radius: 8px;
+    border: 2px solid gray;
+   text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+#foot-spn{
+    color: red;
+}
+.footer-text{
+    color: white;
+   align-items: center;
+   text-align: center;
+   padding: 50%;
 }
